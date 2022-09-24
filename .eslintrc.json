@@ -1,0 +1,15 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "eol-last": "error",
+    "no-unused-vars": "warn",
+    "react/display-name": "off",
+    "semi": ["error", "never"],
+    "quotes": ["error", "single"],
+    "no-trailing-spaces": "warn",
+    "no-dupe-keys": "error",
+    "indent": ["error", 2],
+    "comma-dangle": ["error", "never"],
+    "no-multiple-empty-lines": ["error", { "max": 1 }]
+  }
+}
