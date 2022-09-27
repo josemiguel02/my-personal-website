@@ -2,7 +2,7 @@ import NextLink from 'next/link'
 import { Link, LinkProps } from '@chakra-ui/react'
 
 export const LinkItem: FCC<LinkProps> = ({ href, children, ...rest }) => {
-  const isInternalLink = (href && href.startsWith('/')) || href?.startsWith('#')
+  const isInternalLink = href?.startsWith('/') || href?.startsWith('#')
 
   if (isInternalLink) {
     return (
