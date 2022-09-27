@@ -29,7 +29,7 @@ export const Skills = () => {
         <TabPanels>
           <TabPanel>
             <UnorderedList marginLeft='0.5rem' listStyleType='none' spacing={1}>
-              {['HTML5', 'CSS3', 'JavaScript', 'ReactJS', 'VueJS'].map(
+              {['HTML5', 'CSS3', 'SCSS', 'JavaScript', 'ReactJS', 'VueJS'].map(
                 (skill, i) => (
                   <ListItem key={i}>
                     <ListIcon as={MdCheckCircle} color='green.400' />
