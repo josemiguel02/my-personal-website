@@ -47,7 +47,6 @@ export const Contact = () => {
         <Button
           as='a'
           my={5}
-          rounded='none'
           color='alt'
           fontSize={{ base: 'xs', md: 'sm' }}
           textTransform='uppercase'
@@ -63,7 +62,7 @@ export const Contact = () => {
           Say hello ✌️
         </Button>
 
-        <Flex gap={10}>
+        <Flex gap={10} wrap='wrap' justify='center'>
           {icons.map(({ id, icon, name, url }) => (
             <LinkItem key={id} href={url} boxSize={7} role='group'>
               <Icon
