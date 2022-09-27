@@ -1,9 +1,7 @@
 import type { AppProps } from 'next/app'
-import { ChakraProvider } from '@chakra-ui/react'
 import { AnimatePresence } from 'framer-motion'
-import { theme } from '~/theme'
+import { Chakra, Fonts } from '~/components'
 import AppProvider from '~/context/AppProvider'
-import { Fonts } from '~/components'
 
 const handleExitComplete = () => {
   if (typeof window !== 'undefined') {
@@ -13,7 +11,7 @@ const handleExitComplete = () => {
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <ChakraProvider theme={theme}>
+    <Chakra cookies={pageProps.cookies}>
       <Fonts />
       <AppProvider>
         <AnimatePresence
@@ -24,6 +22,6 @@ export default function App({ Component, pageProps }: AppProps) {
           <Component {...pageProps} />
         </AnimatePresence>
       </AppProvider>
-    </ChakraProvider>
+    </Chakra>
   )
 }

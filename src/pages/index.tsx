@@ -1,13 +1,6 @@
 import { Flex } from '@chakra-ui/react'
 import Layout from '~/layouts/Default'
-import {
-  Hero,
-  AboutMe,
-  Portfolio,
-  Contact,
-  ScrollToTop,
-  AnimatedCircles
-} from '~/components'
+import { Hero, AboutMe, Portfolio, Contact } from '~/components'
 
 export default function Home() {
   return (
@@ -18,8 +11,8 @@ export default function Home() {
         <Portfolio />
         <Contact />
       </Flex>
-      <ScrollToTop />
-      <AnimatedCircles />
     </Layout>
   )
 }
+
+export { getServerSideProps } from '~/components/Chakra'
