@@ -1,34 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Personal Website 🖤
 
-## Getting Started
+## Table of Content
 
-First, run the development server:
+- [About The Project](#about-the-project)
+  - [Description](#description)
+  - [Built With](#built-with)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Demo](#demo)
+- [Contact](#contact)
 
-```bash
-npm run dev
-# or
-yarn dev
+## About The Project
+
+<p align='center'>
+  <img src='demo/desktop.webp' alt='desktop-preview' width='800' />
+</p>
+
+## Description
+
+My personal website built with NextJS, TypeScript, ChakraUI and designed with Figma.
+
+On my website you will find a little about me and some of the projects I've worked on. 🚀
+
+## Built With
+
+[![NextJS](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
+
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+
+[![ChakraUI](https://img.shields.io/badge/ChakraUI-319795?style=for-the-badge&logo=chakraui&logoColor=white)](https://chakra-ui.com)
+
+[![FramerMotion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion)
+
+[![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com)
+
+## Installation
+
+1. Clone the repo and change "my-project" to your project name.
+
+```sh
+  git clone https://github.com/josemiguel02/my-personal-website.git ./my-project
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Go to the project directory
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```sh
+  cd my-project
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+3. Install NPM packages
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```sh
+  yarn install
+```
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+Run the project in development
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```npm
+  yarn dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Build the project
 
-## Deploy on Vercel
+```npm
+  yarn build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Demo
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [View demo](https://josemidev.vercel.app)
+- [Figma Design](https://www.figma.com/file/LrwKAfsw1uAcP1AFe7ok23/My-Portfolio-Design?node-id=0%3A1)
+
+## Contact
+
+- Gmail - [josemidev24@gmail.com](mailto:josemidev24@gmail.com)
+- LinkedIn - [@josemidev24](https://www.linkedin.com/in/josemidev24)
+- Instagram - [@jmdp.02](https://www.instagram.com/jmdp.02)
