@@ -32,7 +32,7 @@ export const Navbar = () => {
       borderRadius='20px'
       boxShadow='0px 0px 5px rgba(0, 0, 0, 0.1)'
       backdropFilter='blur(10px) saturate(150%)'
-      bgColor={useColorModeValue('whiteAlpha.50', 'blackAlpha.500')}
+      bgColor={useColorModeValue('whiteAlpha.50', 'blackAlpha.400')}
     >
       <Container
         as='nav'
@@ -68,7 +68,7 @@ export const Navbar = () => {
             justify='center'
             align='center'
             textTransform='uppercase'
-            fontWeight='300'
+            fontWeight='light'
             fontSize='.875rem'
             letterSpacing='wide'
           >
