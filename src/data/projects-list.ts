@@ -1,34 +1,5 @@
 import { v4 as uuid } from 'uuid'
 
-type Tag =
-  | 'HTML'
-  | 'CSS'
-  | 'SCSS'
-  | 'JavaScript'
-  | 'TypeScript'
-  | 'React.JS'
-  | 'React Native'
-  | 'Vue.JS'
-  | 'Vuex'
-  | 'Node.JS'
-  | 'PHP'
-  | 'Bootstrap'
-  | 'TailwindCSS'
-  | 'Expo'
-  | 'JQuery'
-  | 'MySQL'
-  | 'Firebase'
-
-interface IProject {
-  id: string
-  title: string
-  image: string
-  description: string
-  previewLink: string
-  repoLink: string
-  tags: Array<Tag>
-}
-
 export const projectsList: Array<IProject> = [
   {
     id: uuid(),
