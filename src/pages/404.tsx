@@ -4,10 +4,10 @@ import Layout from '~/layouts/Default'
 
 export default function NotFoundPage() {
   return (
-    <Layout title='Page not found :('>
+    <Layout title='Page not found'>
       <Box minH='25vh'>
-        <Heading>Page not found 😓 :(</Heading>
-        <LinkItem href='/'>Back to Home</LinkItem>
+        <Heading>Page not found 😓</Heading>
+        <LinkItem href='/'>Return to Home</LinkItem>
       </Box>
     </Layout>
   )
