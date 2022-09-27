@@ -32,6 +32,12 @@ export const HamburgerMenu: FCC<HamburgerMenuProps> = ({ btnRef, onOpen }) => {
       rounded='full'
       onClick={onOpen}
       aria-label='Mobile navigation'
+      _hover={{
+        bgColor: 'whiteAlpha.300'
+      }}
+      _active={{
+        bgColor: 'whiteAlpha.400'
+      }}
     >
       <Flex
         gap='3px'
