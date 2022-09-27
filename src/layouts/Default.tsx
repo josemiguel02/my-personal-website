@@ -1,12 +1,19 @@
 import Head from 'next/head'
 import { Container } from '@chakra-ui/react'
-import { SEO, Navbar, PageTransition, Footer } from '~/components'
+import {
+  SEO,
+  Navbar,
+  PageTransition,
+  ScrollToTop,
+  AnimatedCircles,
+  Footer
+} from '~/components'
 
 interface DefaultLayoutProps {
   title?: string
 }
 
-const defaultTitle = 'José Domínguez Pérez - Web Developer 🧑‍💻'
+const defaultTitle = 'José Domínguez Pérez • Web Developer 🧑‍💻'
 
 const DefaultLayout: FCC<DefaultLayoutProps> = ({ children, title }) => {
   return (
@@ -14,7 +21,7 @@ const DefaultLayout: FCC<DefaultLayoutProps> = ({ children, title }) => {
       <Head>
         <SEO />
         <title>
-          {title ? `${title} - José Domínguez Pérez` : defaultTitle}
+          {title ? `${title} • José Domínguez Pérez` : defaultTitle}
         </title>
       </Head>
       <Container as='main' maxW='950px'>
@@ -22,6 +29,8 @@ const DefaultLayout: FCC<DefaultLayoutProps> = ({ children, title }) => {
         <PageTransition mt={2} py={12}>
           {children}
         </PageTransition>
+        <ScrollToTop />
+        <AnimatedCircles />
       </Container>
       <Footer />
     </>
