@@ -52,6 +52,12 @@ export const ToggleTheme = () => {
               <Icon as={HiOutlineMoon} boxSize={5} />,
               <Icon as={HiOutlineSun} boxSize={5} />
             )}
+            _hover={{
+              bgColor: 'whiteAlpha.300'
+            }}
+            _active={{
+              bgColor: 'whiteAlpha.400'
+            }}
           />
         </Tooltip>
       </motion.div>
