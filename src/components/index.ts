@@ -1,6 +1,7 @@
 export * from './AboutMe'
 export * from './AnimatedCircles'
 export * from './AnimatedIcon'
+export * from './Chakra'
 export * from './Contact'
 export * from './CustomImage'
 export * from './Drawer'
